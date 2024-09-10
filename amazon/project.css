@@ -1,0 +1,197 @@
+/* body { 
+     background-color:black; 
+}*/
+
+ul {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid white ; */
+    height: 30px;
+    position: sticky;
+    top: 0px;
+    padding: 15px
+}
+
+button {
+    background-color: black;
+    color: white
+}
+
+#navlogo {
+    height: 40px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px
+}
+
+li {
+    list-style-type: none;
+}
+
+#box1 {
+    width: 100vw;
+    text-align: center;
+}
+
+#fullcontainer {
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid gray */
+}
+
+#logocontainer {
+    height: 400px;
+    width: 30vw;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid gray;
+}
+
+#iphonefront {
+    background-size: cover;
+    background-image: url(iphonedual.png);
+    height: 200px;
+}
+
+#iphoneback {
+    background-image: url(iphoneback.png);
+    background-size: cover;
+    height: 200px
+}
+
+#iphonedual {
+    background-image: url(iphonecamera.png);
+    background-size: cover;
+    height: 200px;
+}
+
+#iphonecamera {
+    background-image: url(iphonebox.png);
+    background-size: cover;
+    height: 200px;
+
+}
+
+img {
+    height: 200px
+}
+
+p {
+    color: gray
+}
+
+
+#box2 {
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial;
+    color: rgb(91, 91, 97)
+}
+
+#subcontainer {
+    border: 1px solid gray;
+    width: 70vw;
+    height: 400px;
+    /* color: white; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+#rate {
+    text-align: center;
+    padding-top: 20px;
+    justify-content: center;
+
+}
+
+footer {
+    height: 100px;
+    width: 100vw;
+    border: 2px solid white;
+    background-color: black;
+    position: relative;
+    bottom: 0px;
+    color: white;
+    text-align: center;
+    padding-top: 20px
+}
+
+h3 {
+    display: inline;
+}
+
+h5 {
+    display: inline;
+    text-decoration: line-through;
+}
+
+#colorbox {
+    text-align: center;
+    padding-top: 50px
+}
+
+#variant {
+    text-align: center;
+    padding-top: 50px
+}
+
+#specification {
+    height: 850px;
+    width: 100vw;
+    border: 1px solid white;
+
+}
+
+.ratehead {
+    margin-bottom: 50px;
+}
+
+#displayspec {
+    height: 250px;
+
+}
+
+#displayinfo {
+    text-align: center;
+}
+
+#display {
+    height: 200px;
+    /* border: 1px solid white; */
+    display: flex
+}
+
+#camera {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+#camerainfo {
+    text-align: center;
+    height: 200px;
+}
+
+#performance {
+    display: flex;
+}
+
+#performanceinfo {
+    text-align: center;
+}
+
+
+h2 {
+    color: grey;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px
+}

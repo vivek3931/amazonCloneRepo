@@ -1,0 +1,62 @@
+#Singhlogo{
+    /* display: inline; */
+    text-align: center;
+    width: 250px;
+   
+}
+#navbar{
+    height: 55px;
+    width: 100vw;
+    border-style: solid;
+    background-color: rgb(176, 104, 247);
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+    
+
+    /* display:flex;
+    justify-content: space-evenly; */
+    
+}
+#title{
+    color: red;
+    font-size: 25px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 90px;
+    font-size: 20px;
+    /* padding-bottom: 30px; */
+   
+   
+}
+#logo{
+    /* display: inline-block; */
+    padding: 5px;
+    width: 60px;  
+    float: left; 
+    margin-right: 40px
+}
+#search{
+    margin-left: 500px
+}
+button{
+    background-color: orange;
+}
+h3{
+    display: inline;
+    font-size: 45px;
+    margin-right: 75px;
+
+}
+#contentarea{
+    border-style: solid;
+    height: 500px;
+    width: 100vw;
+    background-color: pink;
+}
+footer{
+    text-align: center;
+}

@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+
+}
+#container {
+    height: 300px;
+    display: flex;
+    width: 100vw;
+    background-color: black;
+    border: 1px solid black;
+    overflow-x: scroll;
+    overflow-y: hidden; 
+    white-space: nowrap;
+    scroll-snap-type: x mandatory; 
+
+
+}
+
+.blue {
+    background-image: url(iphoneback.png);
+    background-size: cover;
+    aspect-ratio: 1/1;
+    margin: 5px;
+    scroll-snap-align: center;
+}
+
+.green {
+    background-image: url(iphonecamera.png);
+    aspect-ratio: 1/1;
+    background-size: cover;
+    margin: 5px;
+    scroll-snap-align: center;
+
+}
+.yellow {
+    background-image: url(iphonecamera.png);
+    background-size: cover;
+    aspect-ratio: 2/2;
+    margin: 5px; 
+   scroll-snap-align: center;
+
+}
+.orange {
+    background-image: url(iphonecamera.png);
+    background-size: cover;
+    aspect-ratio:2/2;
+    margin: 5px;
+    scroll-snap-align: center;
+
+}
+.red{
+    background-image: url(iphonedual.png);
+    background-size: cover;
+    aspect-ratio: 1/1;
+    margin: 5px;
+    scroll-snap-align: center;
+
+}
+.white{
+    background-image: url(iphoneback.png);
+    background-size: cover;
+    aspect-ratio: 1/1;
+    margin: 5px;
+    scroll-snap-align: center;
+
+
+}
+.pink{
+    background-image: url(iphonebox.png);
+    background-size: cover;
+    aspect-ratio: 1/1;
+    margin: 5px;
+    scroll-snap-align: center;
+
+}

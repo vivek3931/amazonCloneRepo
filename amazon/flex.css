@@ -1,0 +1,69 @@
+.container {
+    height: 600px;
+    width: 500px;
+    border: 1px solid black;
+    display: flex;
+    /* it is tool to flex in the boxes inside it*/
+    justify-content: center;
+    /* it give the direction towards horizontal axis*/
+    align-items: center;
+    /* it give the direction towards the vertical axis*/
+    /* using both the condition simultaneouly we can place the content inside the the container in the center*/
+    background-color: black;
+    /* align-content: flex-start; */
+}
+
+div {
+    height: 200px;
+    width: 200px;
+    /* border: 1px solid black; */
+    flex-wrap: wrap;
+    /* align-content: center;  this remove the extra space while using the flex-wrap property */
+    /* 1) align-content: flex-s tart; value can place the boxes to the top of the container */
+    /*2) align-content: flex-end; value can place the boxes to the end of the container*/
+}
+
+#box1 {
+    background-image: url(iphonedual.png);
+    background-size: cover;
+    align-self: flex-start;/* it is use to give specific position to the boxes*/
+    
+}
+
+#box2 {
+    background-image: url(iphoneback.png);
+    background-size: cover;
+    
+}
+#box3 {
+    background-image: url(iphonecamera.png);
+    background-size: cover;
+    align-self: flex-end;
+
+}
+#box4 {
+    background-image: url(iphonebox.png);
+    background-size: cover;
+
+}
+.container2{
+    height: 400px;
+    width: 100vw;
+    border: 1px solid black;
+    display: flex;
+
+}
+#image1{
+    height: 400px;
+    width: 30vw;
+    border: 1px solid black;
+    background-image: url(iphonedual.png);
+    background-size: cover;
+
+
+}
+#parabox{
+    width: 69vw;
+    height: 400px;
+    text-align: center;
+}

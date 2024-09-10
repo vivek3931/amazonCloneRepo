@@ -1,0 +1,35 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: solid;
+    display: inline-block;
+   
+    
+
+    
+
+}
+#box1{
+    background-image: url(flower1);
+    background-size: cover;
+    position: fixed;
+    bottom: 0px;
+}
+#box2{
+    background-image: url(flower2.avif);
+    background-size: cover;
+    position: fixed;
+    top: 300px;;
+}
+#box3{
+    background-image: url(flower3);
+    background-size: cover;
+    position: fixed;
+    left: 0px
+}
+#box4{
+    background-image: url(flower4);
+    background-size: cover;
+    position: fixed;
+    right: 0px;
+}

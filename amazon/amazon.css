@@ -1,0 +1,641 @@
+* {
+    margin: 0px;
+    border: border- box;
+    font-family: arial;
+    color: white
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+
+}
+
+.logo {
+    height: 50px;
+    width: 150px;
+    background-image: url(amazonoriginal.png);
+    background-size: cover;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 150px
+}
+
+.border {
+    border: 1px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+ 
+/* location container */
+.add-icon {
+    display: flex;
+}
+
+.boxfirst {
+    font-size: 12px;
+    color: #cccccc;
+    margin-left: 15px
+}
+
+.boxsec {
+    font-size: 14px;
+    color: white;
+    margin-left: 4px;
+
+}
+
+/* third box */
+.inputbox {
+    display: flex;
+    width: 670px;
+    justify-content: space-evenly;
+}
+
+.select {
+    height: 35px;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: grey;
+    background-color: #e6e6e6;
+}
+
+.input {
+    height: 33px;
+    border: none;
+    width: 630px;
+    font-size: 1em;
+    color: black;
+}
+.inputbox:hover{
+    border: 2px solid orange;
+}
+
+.searchlogo {
+    height: 35px;
+    width: 40px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: rgb(255, 204, 0);
+    text-align: center;
+    align-content: center;
+
+}
+
+/* forth box */
+.hello {
+    color: white;
+    font-size: 0.75em;
+    padding-left: 5px
+}
+
+.select-acc{
+    /* color: black; */
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 1em;
+}
+/* fifthbox */
+.order1 {
+    color: white;
+    font-size: 0.75em;
+
+}
+
+.order2 {
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.carttext {
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+/* Mini nav */
+/* .menuoption{
+    background-color: transparent;
+} */
+.nav-all{
+    padding-left: 20px
+}
+.mininav{
+    height: 40px;
+    background-color: #232d2d;
+    /* justify-content: space-between; */
+}
+.mininav{
+     display: flex;
+     align-items: center;
+}
+a{
+    text-decoration: none;
+    padding: 15px
+}
+.slideimage{
+    background-image: url(slideimage.jpg);
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.slidecontent{
+    height: 40px;
+    width: 95%;
+    background-color: white;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.95em;
+}
+.slidecontent p{
+    color: black
+}
+.slidecontent a{
+    color: #007185
+}
+
+/* container */
+.container{
+    width: 100vw;
+    height: 1050px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    margin: 20px;
+
+
+}
+.containername{
+   height: 10px;
+   color: rgb(80, 76, 76);
+   /* margin-top: 170px; */
+   
+}
+.containerimage1{
+    height: 500px;
+    width: 500px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-wrap: wrap;
+    /* align-content: flex-start; */
+    /* margin: 20px; */
+    border: 1px solid black;
+    /* margin-top: 170px; */
+    /* padding: 20px */
+
+}
+.containerwords{
+    height: 30px;
+    width: 500px;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    
+}
+.chair{
+    height: 160px;
+    width: 250px;
+    background-image: url(chair.jpg);
+    background-size: cover;
+    color: rgb(80, 76, 76);
+}
+.mouse{
+    height: 160px;
+    width: 250px;
+    background-image: url(mouse.jpg);
+    background-size: cover;
+    color: rgb(80, 76, 76);
+    align-content: flex-end;
+
+}
+.keyboard{
+    height: 160px;
+    width: 250px;
+    background-image: url(keyboard.jpg);
+    background-size: cover;
+    color: rgb(80, 76, 76);
+    align-content: flex-start;
+}
+.headphone {
+    height: 160px;
+    width: 250px;
+    background-image: url(headphone.jpg);
+    background-size: cover;
+    color: rgb(80, 76, 76);
+    align-content: flex-start;
+}
+
+.containerimage2{
+    height: 500px;
+    width: 500px;
+    /* background-color: gray; */
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 20px; */
+    border: 1px solid black
+    /* padding: 20px */
+
+}
+.bed {
+    height: 200px;
+    width: 250px;
+    background-image: url(bed.jpg);
+    background-size: cover;
+    color: rgb(80, 76, 76);
+    /* margin: 10px; */
+}
+.decoration{
+    height: 200px;
+    width: 250px;
+    background-image: url(decoration.jpg);
+    background-size: cover;
+    color: rgb(80, 76, 76);
+}
+.home {
+    height: 200px;
+    width: 250px;
+    background-image: url(home.jpg);
+    background-size: cover;
+    color: rgb(80, 76, 76);
+}
+.kitchen {
+    height: 200px;
+    width: 250px;
+    background-image: url(kitchen.jpg);
+    background-size: cover;
+    color: rgb(80, 76, 76);
+}
+.containerimage3{
+    height: 500px;
+    width: 500px;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 20px; */
+    border: 1px solid black
+
+}
+.dining {
+    height: 200px;
+    width: 250px;
+    background-image: url(dining.jpg);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    /* align-content: flex-end; */
+}
+.cloth {
+    height: 200px;
+    width: 250px;
+    background-image: url(cloth.jpg);
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    /* align-content: flex-end; */
+}
+.food {
+    height: 200px;
+    width: 250px;
+    background-image: url(food.jpg);
+    background-size: cover;
+    color: rgb(13, 0, 0);
+    /* align-content: flex-end; */
+}
+.products {
+    height: 200px;
+    width: 250px;
+    background-image: url(products.jpg);
+    background-size: cover;
+    color: rgb(249, 247, 247);
+    /* align-content: flex-end; */
+}
+
+.containerimage4{
+    height: 500px;
+    width: 500px;
+    /* background-color: tan; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    border: 1px solid black
+
+}
+.jeans {
+    height: 200px;
+    width: 250px;
+    background-image: url(jeans.jpg);
+    background-size: cover;
+    color: rgb(80, 76, 76);
+    /* align-content: flex-end; */
+}
+.top {
+    height: 200px;
+    width: 250px;
+    background-image: url(tops.jpg);
+    background-size: cover;
+    color: rgb(80, 76, 76);
+    /* align-content: flex-end; */
+}
+.dress {
+    height: 200px;
+    width: 250px;
+    background-image: url(dress.jpg);
+    background-size: cover;
+    color: rgb(80, 76, 76);
+    /* align-content: flex-end; */
+}
+.shoe {
+    height: 200px;
+    width: 250px;
+    background-image: url(shoe.jpg);
+    background-size: cover;
+    color: rgb(80, 76, 76);
+    /* align-content: flex-end; */
+}
+
+
+.containerimage5{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    border: 1px solid black
+
+}
+.girldress {
+    height: 200px;
+    width: 250px;
+    background-image: url(girldress.jpg);
+    background-size: cover;
+    color: rgb(246, 246, 246);
+    /* align-content: flex-end; */
+}
+.knits {
+    height: 200px;
+    width: 250px;
+    background-image: url(knits.jpg);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    /* align-content: flex-end; */
+}
+.jacket {
+    height: 200px;
+    width: 250px;
+    background-image: url(jacket.jpg);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    /* align-content: flex-end; */
+}
+.jewellery {
+    height: 200px;
+    width: 250px;
+    background-image: url(jewellery.jpg);
+    background-size: cover;
+    color: rgb(21, 9, 9);
+    /* align-content: flex-end; */
+}
+.containerimage6{
+    height: 500px;
+    width: 500px;
+    /* background-color:wheat; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    border: 1px solid black
+
+}
+.phone {
+    height: 200px;
+    width: 250px;
+    background-image: url(phone.jpg);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    /* align-content: flex-end; */
+}
+.boyswatch{
+    height: 200px;
+    width: 250px;
+    background-image: url(boyswatch.jpg);
+    background-size: cover;
+    color: rgb(80, 76, 76);
+    /* align-content: flex-end; */
+}
+.watch{
+    height: 200px;
+    width: 250px;
+    background-image: url(watch.jpg);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    /* align-content: flex-end; */
+}
+.tablets{
+    height: 200px;
+    width: 250px;
+    background-image: url(tablets.jpg);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    /* align-content: flex-end; */
+}
+footer p{
+    background-color: #232d2d;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.backtotop{
+    height: 50px;
+    background-color: #37475A;
+    color: white;
+    font-size: 0.85em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.linkcontainer {
+
+    height: 320px;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-evenly;
+}
+.firstlink a{
+    height: 300px;
+    width: 400px;
+    color: #DDDDDD;
+    font-size: 0.95em;
+}
+.secondlink a{
+    color:#DDDDDD;
+    height: 300px;
+    width: 400px;
+    font-size: 0.95em;
+
+}
+.thirdlink a{
+    color: #DDDDDD;
+    height: 300px;
+    width: 400px;
+    list-style-type: none;
+    font-size: 0.95em;
+}
+.forthlink a{
+    color: #DDDDDD;
+    height: 300px;
+    width: 400px;
+    list-style-type: none;
+    font-size: 0.95em;
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+}
+.firstlink p{
+    font-weight: bold;
+}
+.secondlink p{
+    font-weight: bold;
+}
+.thirdlink p{
+    font-weight: bold;
+}
+.forthlink p{
+    font-weight: bold;
+}
+.signinbox{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(228, 222, 222);
+    border-top: 1px solid rgb(228,222,222);
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+.signinbox p{
+    font-size: 0.75em;
+    color: black;
+}
+.signinbox a{
+    color: #007185;
+}
+.signin{
+    color: black;
+    background-color: rgba(255, 166, 0, 0.596);
+    font-size: 0.75em;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid orange
+}
+.signin a{
+    color: black
+}
+.footercontainer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #232F3E;
+    border-top: 1px solid rgb(176, 168, 168);
+
+
+}
+.footerselect{
+    background-color: transparent;
+    width: 70px;
+    border: none;
+}
+option{
+    color: black;
+}
+.footboxfirst{
+    height: 40px;
+    width: 95px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.footerselect2{
+    background-color: transparent;
+    width: 150px;
+    border: none;
+}
+.footboxsecond{
+    height: 40px;
+    width: 160px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px
+
+}
+.footlogo{
+    height: 50px;
+    width: 150px;
+    margin-right:100px
+}
+.footamazonlogo{
+    height: 50px;
+    width: 150px;
+    background-image: url(amazonoriginal.png);
+    background-size: cover;
+}
+.footboxthird{
+    height: 40px;
+    width: 150px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px
+
+}
+.footerselect3{
+    background-color: transparent;
+    width: 150px;
+    border: none;
+    height: 30px;
+    text-align: center;
+}
+
+
+
+
+
+

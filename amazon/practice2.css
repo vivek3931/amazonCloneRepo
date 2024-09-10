@@ -1,0 +1,56 @@
+body {
+    background-image: url(singh\ logo2.png);
+    background-size: contain;
+    /* we use maximum "cover" value in background-size property*/
+
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: solid;
+    display: inline-block;
+    /*the div tag occupies whole width to overcome this we can this property & value*/
+
+}
+
+#box1 {
+    position: default
+        /* the position will be default*/
+}
+
+#box2 {
+    position: relative;
+    /* element is relative to itself*/
+    top: 20px;
+    left: 10px
+}
+
+#box3 {
+    position: absolute;
+    /* this value will change according from the closest ancestors tag */
+    right: 10px
+}
+
+#box4 {
+    position: fixed;
+    /* this value is used to fixed the at one place*/
+    left: 50px
+}
+
+#box5 {
+    position: sticky;
+    top: 20px;
+    left: 50px;
+    background-image: url(singh\ logo2.png);
+    background-size: cover;
+    /* z-index: ; this value is used if the element or boxes overlapping to overcome this property is used*/
+
+}
+
+/* {
+
+    background-size: cover ; this property & value is used to fit the image in the boxes
+
+}*/

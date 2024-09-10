@@ -1,0 +1,8 @@
+div{
+    display: inline; /* using display property & inline value it occupy only the space it need */
+    /* drawback of using this inline value in display propety that the margin & Padding will not apply from the bottom & the top */
+    /*to overcome this drawback we can use the inline-block value so that it will execute the following value*/
+}
+button{
+    background-color: rgba(255,0,0,0.5) /*this value is same as rgb value but a in rgba stands for aplha channel it will set the opacity of the color*/
+}
