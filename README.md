@@ -1,2 +1,2 @@
 # amazonCloneRepo
-ye apka repository hai aise aap har project k liye bana sakte ho
+It's an clone of amazon.in made for evaluate my learning skills just for educational purpose
